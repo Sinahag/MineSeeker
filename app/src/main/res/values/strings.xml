@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">MineSeeker</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="help">Help</string>
+    <string name="options">Options</string>
+    <string name="board_size">Board Size</string>
+    <string name="number_of_bombs">Number of Bombs</string>
+    <string name="reset_games_played">Reset Games Played</string>
+    <string name="best_scores">Best Scores</string>
+    <string name="found">Found:</string>
+    <string name="scans_used">Scans Used:</string>
+    <string name="times_played">Times Played:</string>
+    <string name="back_arrow"><![CDATA[<]]></string>
+    <string name="best_score">Best Score:</string>
+    <string name="congratulations_you_won">You Found All The Bombs!</string>
+    <string name="statistics">Statistics</string>
+    <string name="happy_emoji">happy emoji</string>
+    <string name="popper_emoji">popper emoji</string>
+    <string-array name="board_size">
+        <item>4x6</item>
+        <item>5x10</item>
+        <item>6x15</item>
+        <item>7x20</item>
+    </string-array>
+    <string-array name="num_bombs">
+        <item>6</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string name="helpTitle">Mine Seeker</string>
+    <string name="helpTitle2">Authors</string>
+    <string name="helpTitle3">Background and About</string>
+    <string name="helpDesc">The game, Mine Seeker, is about searching for mines on the game board.
+    You start by clicking any square in the grid, a picture and a number will pop up. If a dirt hole
+    appears there is no mine in that location. Otherwise, you have found a mine. If you click on the mine, a number will show.
+    The number on the picture indicates the amount of mines that are within the same row and column.
+    </string>
+    <string name="helpDesc2">This game was written by Sina Haghighi and Raymond Cao,
+    students of the course Introduction to Software Engineering. All hand-drawn art was created by us,
+        and emoji\'s sourced from Apple\'s emoji library.
+    </string>
+    <string name="Pagelink">
+    <a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/assignments/files/Assignment3.pdf">
+    Course Assignment Description</a></string>
+    <string name="skip">Skip</string>
+    <string name="logo">Logo</string>
+    <string name="authors">Created by Sina Haghighi and Raymond Cao</string>
+</resources>

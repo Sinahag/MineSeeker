@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ca.cmpt276.mineseeker">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MineSeeker"
+        android:icon="@mipmap/mineseeker_logo_round"
+        tools:targetApi="31">
+        <activity
+            android:name=".WelcomePage"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.MineSeeker.NoActionBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GamerMode"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.MineSeeker.NoActionBar" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.MineSeeker" />
+        <activity
+            android:name=".OptionsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.MineSeeker" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.MineSeeker.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
