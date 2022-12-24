@@ -1,1 +1,1 @@
-Assignment 3 Mine Seeker Application
+Mine Seeker Application
